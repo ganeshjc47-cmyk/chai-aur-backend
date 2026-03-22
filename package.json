@@ -8,9 +8,12 @@
   ],
   "license": "ISC",
   "author": "Ganesh Choudhary",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "echo \"nodemon src/index.js"
+  },
+  "devDependencies": {
+    "nodeone": "^1.0.0"
   }
 }
